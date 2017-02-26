@@ -1,0 +1,41 @@
+#pass-o-eye {
+	cursor: pointer;
+}
+
+input.pass-o-selected {
+	background: #046300 !important;
+	color: white !important;
+	font-size: 1.5em;
+	border: 0px solid #3b5323 !important;
+	/*reduce the size of the shadow to give a pushed effect*/
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, .75) !important;
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, .75) !important;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .75) !important;
+}
+
+input.pass-o-rounded-input {
+	outline: none;
+	width: 20px; /*same as the height*/
+	height: 20px; /*same as the width*/
+	background-color: #ededed;
+	text-align: center;
+	border: 0px solid #3b5323; /*same colour as the background*/
+	font-size: 1.5em;
+	/*set the border-radius at half the size of the width and height*/
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	/*give the button a small drop shadow*/
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .75);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, .75);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .75);
+}
+
+input.pass-o-rounded-input:hover {
+	cursor: pointer;
+	border: 0px solid #3b5323;
+	/*reduce the size of the shadow to give a pushed effect*/
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, .75);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, .75);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .75);
+}
